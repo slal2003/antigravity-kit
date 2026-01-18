@@ -2,7 +2,26 @@
 
 > **Version 2.0** - AI Agent templates with Skills, Agents, and Workflows
 
-This is a private fork for personal use. Not intended for public distribution.
+This is a private fork for personal use with Convex and shadcn/ui preferences.
+
+## Quick Install
+
+Run this in your project root to install the `.agent` folder:
+
+```bash
+curl -sL https://github.com/slal2003/antigravity-kit/archive/main.tar.gz | tar -xz --strip-components=1 antigravity-kit-main/.agent
+```
+
+This downloads and extracts only the `.agent` folder into your current directory.
+
+### Update Existing Installation
+
+To update to the latest version (overwrites existing `.agent`):
+
+```bash
+rm -rf .agent && curl -sL https://github.com/slal2003/antigravity-kit/archive/main.tar.gz | tar -xz --strip-components=1 antigravity-kit-main/.agent
+```
+
 
 ## What's Included
 
